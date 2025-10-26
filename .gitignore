@@ -1,0 +1,6 @@
+.venv/
+__pycache__/
+*.pyc
+assets/processed/
+posts/scheduled/
+.env
