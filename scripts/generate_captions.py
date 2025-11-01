@@ -1,5 +1,10 @@
-import argparse, csv, os
+import sys, os
+
+# Ensure project root (parent of /scripts) is on sys.path
+sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+
 from captions import generate_caption_and_tags
+import argparse, csv
 
 def load_rows(path):
     with open(path, newline="", encoding="utf-8") as f:
