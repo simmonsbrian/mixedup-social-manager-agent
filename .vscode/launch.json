@@ -1,0 +1,22 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Run MixedUp Agent (auto mode)",
+      "type": "python",
+      "request": "launch",
+      "program": "${workspaceFolder}/agent.py",
+      "console": "integratedTerminal",
+      "args": [
+        "--enrich",
+        "--in",
+        "posts/mixedup_next2weeks_calendar.csv",
+        "--out",
+        "posts/drafts/mixedup_ai_calendar.csv",
+        "--mode",
+        "auto",
+        "--overwrite"
+      ]
+    }
+  ]
+}
