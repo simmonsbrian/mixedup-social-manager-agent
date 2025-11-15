@@ -2,5 +2,6 @@
 __pycache__/
 *.pyc
 assets/processed/
+assets/raw/
 posts/scheduled/
 .env
